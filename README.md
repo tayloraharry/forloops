@@ -1,44 +1,67 @@
-Write a for loop that uses a counter variable initialized at 5 and then increments it by 10 every time it executes. Use console.log() to output the value of the counter variable each time through the loop. Stop execution of the loop if the counter variable's value is greater than 120.
+This repo is an assigment completed for the front end development portion of Nashville Software School.
 
-Example output:
+# Practicing Iteration
 
-Current value is 5
+## Setup
 
-Current value is 15
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below, open a terminal window on your **host machine** and paste. It doesn't matter what directory you are currently in.
 
-Current value is 25
+```bash
+mkdir -p ~/workspace/exercises/the-static-web/for-loops && cd $_
+touch index.html
+touch for-loops.js
+```
 
-...
-Decrement by division
+## Requirements
 
-Write a for loop with a counter variable initialized at 4096. Each time the loop executes divide the counter variable's value by 2. Use console.log() to output its value every time. When the counter variable's value is 1, stop execution.
+### Increment by 10
 
-Example output:
+Write a `for` loop that uses a counter variable initialized at 5 and then increments it by 10 every time it executes. Use `console.log()` to output the value of the counter variable each time through the loop. Stop execution of the loop if the counter variable's value is greater than 120.
 
-Current value is 4096
+> **Example output:**
+>
+> Current value is 5
+>
+> Current value is 15
+>
+> Current value is 25
+>
+> ...
 
-Current value is 2048
+### Decrement by division
 
-Current value is 1024
+Write a `for` loop with a counter variable initialized at 4096. Each time the loop executes divide the counter variable's value by 2. Use `console.log()` to output its value every time. When the counter variable's value is 1, stop execution.
 
-...
-Array iteration
+> **Example output:**
+>
+> Current value is 4096
+>
+> Current value is 2048
+>
+> Current value is 1024
+>
+> ...
 
-Create an array that contains the names of American Presidents. Loop over that array with a for loop, and use string concatenation with console.log() to output the order and name of each President (see example below).
 
-Example output:
+### Array iteration
 
-President #1 was George Washington
+Create an array that contains the names of American Presidents. Loop over that array with a `for` loop, and use string concatenation with `console.log()` to output the order and name of each President (see example below).
 
-President #2 was John Adams
+> **Example output:**
+>
+> President #1 was George Washington
+>
+> President #2 was John Adams
+>
+> President #3 was Thomas Jefferson
+>
+> ...
 
-President #3 was Thomas Jefferson
+### Object iteration
 
-...
-Object iteration
+You can use another kind of `for` loop to [iterate over objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in). Iterate over the object below and use `console.log()` to output the names of the keys in the object.
 
-Use can use another kind of for loop to iterate over objects. Iterate over the object below and use console.log() to output the names of the keys in the object.
-
+```js
 var antSpecies = {
   argentine: {},
   army: {},
@@ -52,3 +75,5 @@ var antSpecies = {
   honeyPot: {},
   jackJumper: {}
 }
+```
+
